@@ -1,9 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body {
+	margin: 32px;
+	font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header, main {
+	text-align: center;
+}
+
+.logo-section {
+	margin-top: 124px;
+}
+
+.logo-section > img {
+	width: 128px;
+	height: 128px;
+}
+
+.header-info {
+	margin-top: 75px;
+}
+
+.header-info > p {
+	margin-top: 25px;
+}
+
+.buttons-section {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	align-items: center;
+}
+
+.buttons-section > button {
+	color: #fff;
+	font-weight: 600;
+	border: none;
+	padding: 16px;
+	border-radius: 64px;
+	min-width: 310px;
+}
+
+.ios-btn {
+	background-color: hsl(171, 66%, 44%);
+}
+
+.mac-btn {
+	background-color: hsl(233, 100%, 69%);
+}
+
+.desktop-section {
+	margin-top: 170px;
+	width: 100%;
+}
+
+.desktop-section > p {
+	margin-top: 32px;
+}
+
+.desktop-logo {
+	margin-top: 68px;
+}
+
+.desktop-tags {
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+}
+
+.desktop-tag > p {
+	margin-top: 20px;
+}
+
+.desktop-logo > img {
+	max-width: 100%;
+}
+
+.clipboard-section {
+	margin-top: 200px;
+}
+
+.clipboard-section > p {
+	margin-top: 24px;
+}
+
+.devices-logo {
+	margin-top: 70px;
+}
+
+.devices-logo > img {
+	max-width: 100%;
+}
+
+/* Footer styles */
 .attribution {
 	font-size: 11px;
 	text-align: center;
